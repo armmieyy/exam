@@ -73,7 +73,7 @@ export default function Home() {
             onChange={(e) => setFirstname(e.target.value)}
             className="p-1 border rounded-md border-slate-400"
           ></input>
-          <label class="font-bold">Last Name</label>
+          <label className="font-bold">Last Name</label>
           <input
             value={lastname}
             placeholder="Your Lastname.."
